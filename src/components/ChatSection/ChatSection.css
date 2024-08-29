@@ -1,0 +1,81 @@
+.Messenger {
+  width: 100%;
+  height: 92%;
+  position: relative;
+  top: 8%;
+  padding: 1%;
+}
+.messengerBigbox {
+  position: relative;
+  top: 1%;
+  display: flex;
+  margin: 0;
+  height: 94%;
+  gap: 2%;
+}
+/* left part of Messenger*/
+.messengerNameBox {
+  width: 20%;
+  height: 99%;
+  border-radius: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  background-color: white; /* Ensures the shadow is visible */
+  z-index: 1;
+  overflow-y: auto;
+}
+.messengerNameBox h5 {
+  margin: 0;
+  padding-top: 4%;
+  padding-left: 5%;
+  color: #db74dc;
+}
+
+.messengerNameBox_searchbar {
+  margin: 3%;
+  width: 94%;
+  position: relative;
+}
+.messengerNameBox_searchbaricon {
+  position: absolute;
+  left: 1%;
+  width: 9%;
+  height: 100%;
+}
+.messengerNameBox_searchbar input {
+  padding-left: 15%;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+.messengerNameBoxContainer {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  gap: 2%;
+  align-items: center;
+  padding-left: 6%;
+  cursor: pointer;
+}
+.messengerNameBoxContainer:hover {
+  background: rgba(244, 244, 244, 1);
+}
+.messengerNameBoxContainer_avatar {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.messengerNameBoxContainer_avatar img {
+  height: 64%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.messengerNameBoxContainer_name {
+  width: 52%;
+}
+.messengerNameBoxContainer_time {
+  color: #818181;
+  align-self: start;
+  font-size: 11px;
+  width: 22%;
+}

@@ -1,0 +1,70 @@
+.roomPage_div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.roomPage_div.roomPageShrink {
+  width: 80%;
+}
+.roompage_sendStreamButton {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 40%;
+}
+.roompage_callButton {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 30%;
+}
+.roompage_streaming {
+  width: 100%;
+  height: 100%;
+}
+.roompage_myStream {
+  width: 15% !important;
+  height: 15% !important;
+  position: absolute !important;
+  bottom: 3% !important;
+  z-index: 1 !important;
+}
+
+.roompage_myStream.roompage_myStreamShrink {
+  right: 22% !important;
+}
+
+.roompage_myStream video {
+  object-fit: cover;
+  border-radius: 7%;
+}
+.roompage_remoteStream {
+  width: 100% !important;
+  height: 100% !important;
+}
+.roompage_remoteStream video {
+  object-fit: cover;
+}
+.messageAppButton {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  cursor: pointer;
+  z-index: 1;
+  width: 5%;
+}
+.messageAppButton.messageAppButtonShrink {
+  right: 22%;
+}
+.addPerson {
+  position: absolute;
+  top: 15%;
+  right: 3%;
+  width: 4%;
+  height: 7%;
+  z-index: 1;
+  cursor: pointer;
+}
+.addPerson.addPersonShrink {
+  right: 23%;
+}

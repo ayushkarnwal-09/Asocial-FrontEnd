@@ -1,0 +1,58 @@
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(189, 189, 189, 0.9);
+}
+.interest_modal {
+  position: fixed;
+  top: 30%;
+  right: 38%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  background: white;
+}
+.interest_modal_img_h1 {
+  display: flex;
+}
+.interest_modal_img_h1 img {
+  width: 28px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.interest_modal h1 {
+  margin: 0;
+}
+
+.interestModalForm {
+  position: relative;
+  top: 10%;
+  width: 80%;
+  height: 50%;
+}
+.interestModalInputAdd {
+  width: 100%;
+  height: 100%;
+}
+.interestModalInputAdd input {
+  width: 100%;
+}
+
+.interest_modal_add {
+  margin-top: 5%;
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  background: #e669c3;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #d477d2;
+}
+
+.footer_image {
+  display: block;
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.footer ul:first-of-type {
+  margin-top: 10px;
+}
+
+.footer ul:last-of-type {
+  margin-top: 20px;
+}
+.copyright {
+  margin: 20px 0;
+  height: 50px;
+}

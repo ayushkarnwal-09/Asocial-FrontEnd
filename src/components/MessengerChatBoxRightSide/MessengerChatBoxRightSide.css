@@ -1,0 +1,111 @@
+/* right part of Messenger*/
+.messengerChatBox {
+  width: 80%;
+  height: 99%;
+  border-radius: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  background-color: white; /* Ensures the shadow is visible */
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+/* Title */
+.messengerChatBoxTitle {
+  display: flex;
+  width: 100%;
+  height: 11%;
+  align-items: center;
+  gap: 3%;
+  padding: 1%;
+}
+.messengerChatBoxTitleAvatar {
+  width: 7%;
+}
+.messengerChatBoxTitleAvatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+.messengerChatBoxTitleName h5 {
+  margin: 0;
+}
+.messengerChatBoxTitleName p {
+  margin: 0;
+}
+.messengerChatBoxTitleDots {
+  position: absolute;
+  right: 8px;
+  width: 3.5%;
+}
+.messengerChatBoxTitleDots img {
+  width: 100%;
+}
+.messengerChatBoxHrLine {
+  width: 90%;
+  position: relative;
+  left: 46px;
+  margin: 0.5%;
+}
+/* User Message Box */
+.messengerChatBoxMessages {
+  width: 100%;
+  height: 78%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  padding: 1% 2% 0% 2%;
+}
+
+.messengerChatBoxcontainer {
+  display: flex;
+  gap: 2%;
+  width: 40%;
+  padding: 1% 2%;
+  color: white;
+  align-items: center;
+}
+
+.messengerChatBoxcontainerImgDiv {
+  width: 38px;
+  height: 34px;
+  align-self: start;
+}
+.messengerChatBoxcontainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.messengerChatBoxUserMessage {
+  background: rgb(219, 116, 220);
+  color: white;
+  border-radius: 20px 20px 0px;
+  max-width: 86%;
+  padding: 3%;
+}
+.messengerChatBoxUserMessage p {
+  margin: 0;
+  word-break: break-all;
+}
+
+/* Enter Message Box */
+.messengerChatBoxEnterMessage {
+  width: 100%;
+  height: 8%;
+}
+.messengerChatBoxEnterMessage_form {
+  height: 100%;
+  width: 100%;
+}
+.messengerChatBoxEnterMessage_form input {
+  padding: 0% 2% 0% 2%;
+  width: 93%;
+  height: 100%;
+  border: none;
+  overflow-y: auto;
+}
+.messengerChatBoxEnterMessage_formSendButton {
+  width: 3%;
+  height: auto;
+  cursor: pointer;
+}

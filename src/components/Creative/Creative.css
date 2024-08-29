@@ -1,0 +1,42 @@
+.creative {
+  background: #d477d2;
+  display: flex;
+  gap: 50px;
+}
+.left-c img {
+  width: 90vh;
+  height: auto;
+}
+.right-c h1 {
+  color: white;
+  padding-top: 100px;
+  font-size: 60px;
+}
+.right-c h2 {
+  color: white;
+  font-size: 40px;
+  padding-top: 30px;
+}
+.right-c img {
+  width: 400px;
+  height: auto;
+}
+.right-c p {
+  margin-right: 50px;
+  color: white;
+  padding-top: 30px;
+  padding-right: 70px;
+}
+.right-c button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 75px;
+  color: #d477d2;
+  font-size: 15px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}

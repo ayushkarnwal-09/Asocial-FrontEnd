@@ -1,0 +1,45 @@
+.homepage_messageDiv {
+  width: 20%;
+  height: 100%;
+  background: white;
+  position: relative;
+}
+.homepage_messageDiv_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage_messageDiv_heading h1 {
+  margin-top: 3%;
+}
+.homepage_messageDiv_heading img {
+  position: absolute;
+  top: 2%;
+  right: 4%;
+  width: 6%;
+  height: 3%;
+  cursor: pointer;
+  align-self: end;
+}
+.messageDiv_form {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+.user_messages {
+  position: relative;
+  text-align: left;
+  overflow-y: auto;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  padding: 0 5%;
+}
+.user_messages div {
+  background: #d67aea;
+  padding: 2% 5%;
+  border-radius: 20% 4% 0% 20%;
+  color: white;
+}

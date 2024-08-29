@@ -1,0 +1,33 @@
+.tryforfree {
+  display: flex;
+  gap: 30px;
+  background: #f4f3f1;
+}
+.left-co {
+  margin-left: 70px;
+}
+.try_logo {
+  margin-top: 100px;
+  height: auto;
+  width: 300px;
+}
+.left-co h1 {
+  font-size: 50px;
+}
+.left-co p {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.left-co button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 75px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  background: #fd4e86;
+  cursor: pointer;
+}

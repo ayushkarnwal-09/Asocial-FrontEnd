@@ -1,0 +1,31 @@
+.videocall {
+  display: flex;
+  height: 100vh;
+}
+
+.videoCall_rightpanel {
+  width: 100vw;
+  display: flex;
+  position: relative;
+}
+.videoCall_rightpanel.shrink {
+  width: 80vw;
+}
+.videoCallPanelButton {
+  position: absolute;
+  margin: 2%;
+  width: 3%;
+  height: auto;
+  cursor: pointer;
+  z-index: 2;
+}
+.newConversation {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+}
+.joinButtonHomepage {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}

@@ -1,0 +1,49 @@
+.totalOnline {
+  margin-top: 2%;
+  height: 79%;
+  width: 97%;
+}
+.totalOnline h5 {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.totalOnlineScrollerDiv {
+  padding: 2%;
+  margin-top: 2%;
+  height: 91%;
+  width: 100%;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 14% 14% 14% 14% 14%;
+  gap: 1%;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+.userContainer {
+  padding: 0.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.onlineUserImgName {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+}
+.onlineUserImgName p {
+  margin-top: 10px;
+}
+
+.userOnlineavatar {
+  width: 20%;
+  border-radius: 50%;
+}
+.UserOnlineDot {
+  width: 75%;
+  cursor: pointer;
+}

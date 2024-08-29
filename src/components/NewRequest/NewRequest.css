@@ -1,0 +1,59 @@
+.newRequestScrollerDiv {
+  padding: 2%;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 22% 22% 22% 22%;
+  gap: 2%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.newRequest {
+  padding-top: 1%;
+  height: 76%;
+  width: 97%;
+}
+.newRequest h5 {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.newRequestContainer {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 14px;
+}
+.newRequest2div {
+  display: flex;
+  gap: 3%;
+}
+.newRequestImg {
+  width: 25%;
+}
+.newRequestAvatar {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.newRequestname p {
+  font-size: small;
+}
+.newRequestButton {
+  height: 26%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6%;
+}
+.newRequestButton button {
+  height: 100%;
+  width: 39%;
+  border-radius: 10%;
+  border: none;
+}
+.newRequestConfirmButton {
+  background-color: #db74dc;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.sendRequest {
+  margin-top: 2%;
+  height: 79%;
+  width: 97%;
+}
+.sendRequest h5 {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.onlineUserImgBox button {
+  border-radius: 10%;
+  width: 61px;
+  margin-right: 6px;
+}

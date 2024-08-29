@@ -1,0 +1,43 @@
+.navbar {
+  background: #fd4e86;
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 70px;
+  height: auto;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+
+.menu-login {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.menu-login button {
+  margin-bottom: 9%;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 75px;
+  color: #d67aea;
+  font-size: 15px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}

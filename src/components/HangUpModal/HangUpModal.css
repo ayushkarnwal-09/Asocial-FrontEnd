@@ -1,0 +1,48 @@
+.HangUp-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(189, 189, 189, 0.9);
+}
+.HangUp-Modal {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2%;
+  width: 23%;
+  height: 39%;
+  position: fixed;
+  left: 38%;
+  top: 31%;
+  background: #fd4e86;
+}
+.closeHangUpModal {
+  cursor: pointer;
+  align-self: end;
+}
+.HangUp-Modal h5 {
+  margin-top: 1%;
+}
+.hangUpModalImg img {
+  width: 20%;
+  height: auto;
+  object-fit: contain;
+}
+.hangUpButton {
+  height: 16%;
+  display: flex;
+  gap: 7%;
+  align-items: center;
+  margin-top: 8%;
+  justify-content: center;
+}
+.hangUpButton button {
+  width: 40%;
+  height: 100%;
+  border-radius: 8%;
+}
+.HangUp-Modal p {
+  margin: 1rem;
+}

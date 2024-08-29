@@ -1,0 +1,15 @@
+.blocked {
+  margin-top: 2%;
+  height: 79%;
+  width: 97%;
+}
+.blocked h5 {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.blockedButton {
+  margin-right: 1%;
+}
+.blockedButton button {
+  border-radius: 12%;
+}
