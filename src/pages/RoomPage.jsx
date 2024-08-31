@@ -153,16 +153,19 @@ const RoomPage = ({ setHomeRightPanelSwitchCase, phoneNo }) => {
 
   const handleAddCallHistory = useCallback(async () => {
     try {
-      const response = await fetch("http://127.0.0.1:4000/addCallHistory", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          mobileNo: userDetails.mobileNo,
-          remoteMobileNo: remotePhoneNo,
-        }),
-      });
+      const response = await fetch(
+        "https://asocial-backend-l8ro.onrender.com:4000/addCallHistory",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            mobileNo: userDetails.mobileNo,
+            remoteMobileNo: remotePhoneNo,
+          }),
+        }
+      );
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }

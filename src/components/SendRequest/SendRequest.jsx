@@ -11,7 +11,7 @@ const SendRequest = () => {
   const fetchUserSentRequests = useCallback(async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:4000/fetchUserSentRequests",
+        "https://asocial-backend-l8ro.onrender.com:4000/fetchUserSentRequests",
         {
           method: "POST",
           headers: {
@@ -39,7 +39,7 @@ const SendRequest = () => {
   const handleSentRequestCancel = async (remoteMobileNo) => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:4000/handleSentRequestCancel",
+        "https://asocial-backend-l8ro.onrender.com:4000/handleSentRequestCancel",
         {
           method: "POST",
           headers: {

@@ -23,9 +23,12 @@ const TotalOnline = () => {
   // fetching online users
   const fetchOnlineUser = useCallback(async () => {
     try {
-      const response = await fetch("http://127.0.0.1:4000/onlineUserDetails", {
-        method: "GET",
-      });
+      const response = await fetch(
+        "https://asocial-backend-l8ro.onrender.com:4000/onlineUserDetails",
+        {
+          method: "GET",
+        }
+      );
       const data = await response.json();
       setOnlineAllUsers(data);
       setOnlineUserLength(data.length);

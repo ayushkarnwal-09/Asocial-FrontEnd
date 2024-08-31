@@ -13,11 +13,14 @@ const SocketJoining = ({
   const navigate = useNavigate();
 
   useEffect(() => {
-    const socketInstance = io("http://127.0.0.1:8000", {
-      extraHeaders: {
-        Authorization: token,
-      },
-    });
+    const socketInstance = io(
+      "https://asocial-backend-l8ro.onrender.com:8000",
+      {
+        extraHeaders: {
+          Authorization: token,
+        },
+      }
+    );
 
     socketInstance.on("connect", async () => {
       setSocket(socketInstance);

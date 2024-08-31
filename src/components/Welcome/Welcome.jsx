@@ -18,13 +18,16 @@ const Welcome = () => {
     console.log(numericMobileNo);
 
     try {
-      const response = await fetch("http://localhost:4000/sendSms", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ mobileNo: numericMobileNo }),
-      });
+      const response = await fetch(
+        "https://asocial-backend-l8ro.onrender.com:4000/sendSms",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ mobileNo: numericMobileNo }),
+        }
+      );
 
       const data = await response.json();
       console.log("Response from backend:", data);

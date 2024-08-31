@@ -37,12 +37,15 @@ const VideoCall = () => {
       return;
     }
     try {
-      const response = await fetch("http://127.0.0.1:4000/userDetails", {
-        method: "GET",
-        headers: {
-          Authorization: token,
-        },
-      });
+      const response = await fetch(
+        "https://asocial-backend-l8ro.onrender.com:4000/userDetails",
+        {
+          method: "GET",
+          headers: {
+            Authorization: token,
+          },
+        }
+      );
       const data = await response.json();
       setUserDetails(data.user);
     } catch (error) {
@@ -62,14 +65,17 @@ const VideoCall = () => {
     const { ["_id"]: removedKey, ...rest } = userDetails;
 
     try {
-      const response = await fetch("http://127.0.0.1:4000/setOnlineUser", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(rest),
-      });
+      const response = await fetch(
+        "https://asocial-backend-l8ro.onrender.com:4000/setOnlineUser",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(rest),
+        }
+      );
 
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);

@@ -30,7 +30,7 @@ const MessengerChatBoxRightSide = ({ user }) => {
   const fetchUsermessageHistory = useCallback(async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:4000/fetchUsermessageHistory",
+        "hhttps://asocial-backend-l8ro.onrender.com:4000/fetchUsermessageHistory",
         {
           method: "POST",
           headers: {
@@ -68,7 +68,7 @@ const MessengerChatBoxRightSide = ({ user }) => {
     const obj = { msg: userMessage, mobileNo: userDetails.mobileNo };
     try {
       const response = await fetch(
-        "http://127.0.0.1:4000/fetchUpdatingUserHistoryMessage",
+        "https://asocial-backend-l8ro.onrender.com:4000/fetchUpdatingUserHistoryMessage",
         {
           method: "POST",
           headers: {

@@ -40,7 +40,7 @@ const Avatar = () => {
           style={{
             cursor: "pointer",
             border:
-              avatar === "http://localhost:5173/images/avatar/pic_2.png"
+              avatar === "/images/avatar/pic_2.png"
                 ? "2px solid blue"
                 : "2px solid transparent",
           }}
@@ -51,7 +51,7 @@ const Avatar = () => {
           style={{
             cursor: "pointer",
             border:
-              avatar === "http://localhost:5173/images/avatar/pic_3.png"
+              avatar === "/images/avatar/pic_3.png"
                 ? "2px solid blue"
                 : "2px solid transparent",
           }}
@@ -64,7 +64,7 @@ const Avatar = () => {
           style={{
             cursor: "pointer",
             border:
-              avatar === "http://localhost:5173/images/avatar/pic_4.png"
+              avatar === "/images/avatar/pic_4.png"
                 ? "2px solid blue"
                 : "2px solid transparent",
           }}
@@ -75,7 +75,7 @@ const Avatar = () => {
           style={{
             cursor: "pointer",
             border:
-              avatar === "http://localhost:5173/images/avatar/pic_5.png"
+              avatar === "/images/avatar/pic_5.png"
                 ? "2px solid blue"
                 : "2px solid transparent",
           }}
@@ -86,7 +86,7 @@ const Avatar = () => {
           style={{
             cursor: "pointer",
             border:
-              avatar === "http://localhost:5173/images/avatar/pic_6.png"
+              avatar === "/images/avatar/pic_6.png"
                 ? "2px solid blue"
                 : "2px solid transparent",
           }}
@@ -99,7 +99,7 @@ const Avatar = () => {
           style={{
             cursor: "pointer",
             border:
-              avatar === "http://localhost:5173/images/avatar/pic_7.png"
+              avatar === "/images/avatar/pic_7.png"
                 ? "2px solid blue"
                 : "2px solid transparent",
           }}
@@ -110,7 +110,7 @@ const Avatar = () => {
           style={{
             cursor: "pointer",
             border:
-              avatar === "http://localhost:5173/images/avatar/pic_8.png"
+              avatar === "/images/avatar/pic_8.png"
                 ? "2px solid blue"
                 : "2px solid transparent",
           }}
@@ -121,7 +121,7 @@ const Avatar = () => {
           style={{
             cursor: "pointer",
             border:
-              avatar === "http://localhost:5173/images/avatar/pic_9.png"
+              avatar === "/images/avatar/pic_9.png"
                 ? "2px solid blue"
                 : "2px solid transparent",
           }}
