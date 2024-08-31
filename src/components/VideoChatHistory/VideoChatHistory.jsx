@@ -9,7 +9,7 @@ const VideoChatHistory = () => {
   const fetchVideoChatHistory = useCallback(async () => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/fetchVideoChatHistory",
+        "https://asocial-backend-l8ro.onrender.com/fetchVideoChatHistory",
         {
           method: "POST",
           headers: {

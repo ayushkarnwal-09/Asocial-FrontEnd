@@ -16,7 +16,7 @@ const HangUpModal = ({
     console.log(phoneNo, remotePhoneNo);
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/sendRequest",
+        "https://asocial-backend-l8ro.onrender.com/sendRequest",
         {
           method: "POST",
           headers: {

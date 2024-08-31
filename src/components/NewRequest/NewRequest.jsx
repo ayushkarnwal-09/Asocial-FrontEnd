@@ -10,7 +10,7 @@ const NewRequest = () => {
   const fetchUserNewRequests = useCallback(async () => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/fetchUserNewRequests",
+        "https://asocial-backend-l8ro.onrender.com/fetchUserNewRequests",
         {
           method: "POST",
           headers: {
@@ -38,7 +38,7 @@ const NewRequest = () => {
   const handleNewRequestConfirmButton = async (remoteMobileNo) => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/acceptingNewRequest",
+        "https://asocial-backend-l8ro.onrender.com/acceptingNewRequest",
         {
           method: "POST",
           headers: {
@@ -64,7 +64,7 @@ const NewRequest = () => {
   const handleNewRequestCancelButton = async (remoteMobileNo) => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/cancellingNewRequest",
+        "https://asocial-backend-l8ro.onrender.com/cancellingNewRequest",
         {
           method: "POST",
           headers: {

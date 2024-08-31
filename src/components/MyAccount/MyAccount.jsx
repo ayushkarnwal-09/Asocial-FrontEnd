@@ -17,7 +17,7 @@ const MyAccount = ({ setHomeRightPanelSwitchCase }) => {
   const handleMyAccountInterests = async (item) => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/removeInterestThroughMyAccount",
+        "https://asocial-backend-l8ro.onrender.com/removeInterestThroughMyAccount",
         {
           method: "POST",
           headers: {

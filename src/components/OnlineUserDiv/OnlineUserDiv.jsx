@@ -5,7 +5,7 @@ const OnlineUserDiv = ({ mobileNo, remoteMobileNo }) => {
   const handleBlockedUser = async () => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/addingUserToBlockedList",
+        "https://asocial-backend-l8ro.onrender.com/addingUserToBlockedList",
         {
           method: "POST",
           headers: {
@@ -31,7 +31,7 @@ const OnlineUserDiv = ({ mobileNo, remoteMobileNo }) => {
   const handleUnfriendUser = async () => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/unfriend",
+        "https://asocial-backend-l8ro.onrender.com/unfriend",
         {
           method: "POST",
           headers: {

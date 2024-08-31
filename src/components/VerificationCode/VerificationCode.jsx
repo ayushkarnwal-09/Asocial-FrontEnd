@@ -20,7 +20,7 @@ const VerificationCode = () => {
     if (+values.join("") === verificationCode) {
       try {
         const response = await fetch(
-          "https://asocial-backend-l8ro.onrender.com:4000/login",
+          "https://asocial-backend-l8ro.onrender.com/login",
           {
             method: "POST",
             headers: {

@@ -23,7 +23,7 @@ const InterestModal = ({
       // If managing through the user's account
       try {
         const response = await fetch(
-          "https://asocial-backend-l8ro.onrender.com:4000/addingInterestThroughMyAccount",
+          "https://asocial-backend-l8ro.onrender.com/addingInterestThroughMyAccount",
           {
             method: "POST",
             headers: {

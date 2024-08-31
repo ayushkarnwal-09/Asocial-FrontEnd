@@ -23,14 +23,11 @@ const ChatSection = () => {
   time.current = time.current + (5 * 60 + 30) * 60 * 1000;
   // connecting user to the socket.
   useEffect(() => {
-    const socketInstance = io(
-      "https://asocial-backend-l8ro.onrender.com:8000",
-      {
-        extraHeaders: {
-          Authorization: token,
-        },
-      }
-    );
+    const socketInstance = io("https://asocial-backend-l8ro.onrender.com", {
+      extraHeaders: {
+        Authorization: token,
+      },
+    });
 
     socketInstance.on("connect", async () => {
       setSocket(socketInstance);
@@ -58,7 +55,7 @@ const ChatSection = () => {
   const fetchUserFriends = useCallback(async () => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/fetchUserFriends",
+        "https://asocial-backend-l8ro.onrender.com/fetchUserFriends",
         {
           method: "POST",
           headers: {

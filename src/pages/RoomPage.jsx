@@ -154,7 +154,7 @@ const RoomPage = ({ setHomeRightPanelSwitchCase, phoneNo }) => {
   const handleAddCallHistory = useCallback(async () => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/addCallHistory",
+        "https://asocial-backend-l8ro.onrender.com/addCallHistory",
         {
           method: "POST",
           headers: {

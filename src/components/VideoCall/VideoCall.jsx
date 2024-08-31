@@ -38,7 +38,7 @@ const VideoCall = () => {
     }
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/userDetails",
+        "https://asocial-backend-l8ro.onrender.com/userDetails",
         {
           method: "GET",
           headers: {
@@ -66,7 +66,7 @@ const VideoCall = () => {
 
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/setOnlineUser",
+        "https://asocial-backend-l8ro.onrender.com/setOnlineUser",
         {
           method: "POST",
           headers: {

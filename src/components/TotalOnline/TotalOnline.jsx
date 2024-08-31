@@ -24,7 +24,7 @@ const TotalOnline = () => {
   const fetchOnlineUser = useCallback(async () => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/onlineUserDetails",
+        "https://asocial-backend-l8ro.onrender.com/onlineUserDetails",
         {
           method: "GET",
         }

@@ -10,7 +10,7 @@ const Blocked = () => {
   const fetchBlockedUsers = useCallback(async () => {
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/fetchBlockedUsers",
+        "https://asocial-backend-l8ro.onrender.com/fetchBlockedUsers",
         {
           method: "POST",
           headers: {

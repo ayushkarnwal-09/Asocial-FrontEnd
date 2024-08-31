@@ -57,7 +57,7 @@ const Interests = () => {
 
     try {
       const response = await fetch(
-        "https://asocial-backend-l8ro.onrender.com:4000/signup",
+        "https://asocial-backend-l8ro.onrender.com/signup",
         {
           method: "POST",
           headers: {
