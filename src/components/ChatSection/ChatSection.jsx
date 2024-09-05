@@ -23,11 +23,7 @@ const ChatSection = () => {
   time.current = time.current + (5 * 60 + 30) * 60 * 1000;
   // connecting user to the socket.
   useEffect(() => {
-    const socketInstance = io("https://asocial-backend-l8ro.onrender.com", {
-      extraHeaders: {
-        Authorization: token,
-      },
-    });
+    const socketInstance = io("https://asocial-backend-l8ro.onrender.com");
 
     socketInstance.on("connect", async () => {
       setSocket(socketInstance);

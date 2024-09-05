@@ -270,7 +270,6 @@ const RoomPage = ({ setHomeRightPanelSwitchCase, phoneNo }) => {
                 style={messageApp ? { right: "22%" } : { right: "2%" }}
                 url={myStream}
                 playing
-                muted
               />
             </>
           )}
@@ -280,7 +279,6 @@ const RoomPage = ({ setHomeRightPanelSwitchCase, phoneNo }) => {
                 className="roompage_remoteStream"
                 url={remoteStream}
                 playing
-                muted
               />
             </>
           )}
